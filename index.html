@@ -418,7 +418,7 @@
       <label class="amount-label" for="amount">Valor do pagamento</label>
       <div class="amount-row">
         <span class="currency">R$</span>
-        <input type="number" id="amount" placeholder="0,00" min="0.01" step="0.01" inputmode="decimal" />
+        <input type="text" id="amount" placeholder="0,00" inputmode="decimal" pattern="[0-9]*" />
       </div>
       <div class="error-msg" id="errMsg">Informe um valor válido maior que R$ 0,00</div>
 
